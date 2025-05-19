@@ -342,8 +342,6 @@ select score from student order by score desc;
 ```sql
 SELECT * FROM table_name
 LIMIT 10 OFFSET 20;
-
-
 ```
 
 - 这个查询将从`table_name`表中返回第3页的数据（每页10条记录）。
